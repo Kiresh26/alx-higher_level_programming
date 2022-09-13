@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 This is the "Square"  module.
+
 This module provides a simple Square class with initialize size.
 Defaults size to 0. Raise error on invalid size inputs.
 Methods Getter and Setter properties for size.
@@ -26,4 +27,4 @@ class Square:
         self.__size = size
 
     def area(self):
-        return self.__size * self.
+        return self.__size * self.__size
